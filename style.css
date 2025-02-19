@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+body {
+    background-color: black;
+}
+div {
+    margin-top: 40px;
+    margin-left: 25px;
+}
+#quadrado {
+    width: 100px;
+    height: 100px;
+    background-color: greenyellow;
+}
+#retangulo {
+    width: 200px;
+    height: 100px;
+    background-color: greenyellow;
+}
+#circulo {
+    width: 100px;
+    height: 100px;
+    background-color: greenyellow;
+    border-radius: 50%;
+}
+#triangulo {
+    width: 0;
+    height: 0;
+    border-bottom: 100px solid greenyellow;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+}
+#trapezio {
+    width: 100px;
+    height: 0;
+    border-bottom: 50px solid greenyellow;
+    border-left: 25px solid transparent;
+    border-right: 25px solid transparent;
+}
+#Paralelogramo {
+    width: 200px;
+    height: 100px;
+    background-color: greenyellow;
+    transform: skewX(-20deg);
+}
